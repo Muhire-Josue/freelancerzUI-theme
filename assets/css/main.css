@@ -1,0 +1,97 @@
+.brand-logo{
+    margin-left: 25px;
+}
+.header-jobs-bg-img{
+    background: url(https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?cs=srgb&dl=pexels-negative-space-160107.jpg&fm=jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 250px;
+    color: #ffffff;
+    margin-top: -17px;
+}
+/* .header-jobs-bg-img h4{
+    margin-top: 20px;
+} */
+
+  
+  input.search-field {
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.54);
+    border-radius: 2px;
+    border: 0;
+    border-radius: 5px;
+    height: 36px;
+    padding: 8px 8px 8px 60px;
+    width: 200px;
+    background: white;
+    transition: background 0.2s, width .2s;
+  }
+  input.search-field:hover {
+    background: #ebebeb;
+  }
+  .searchbox {
+    position: relative;
+  }
+  ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(0, 0, 0, 0.54);
+  }
+  input.search-field:focus {
+    outline: none;
+    width: 300px;
+    color: #212121;
+  }
+  input.search-field:focus:hover {
+    background: #f7f7f7;
+  }
+  .search-content {
+    color: #303c42;
+    width: 90%;
+    margin: auto;
+    height: auto;
+    padding: 8px 10px;
+  }
+  .search-heading {
+    color: #757575;
+    display: block;
+    font-size: 12px;
+    line-height: 30px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    
+    ::placeholder {
+      /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: transparent;
+    }
+  
+    input.search-field {
+      width: 1px;
+      margin-right: 0px;
+      padding: 8px 25px;
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+    }
+    input.search-field ~ .search-popup {
+      width: 1px;
+      margin-right: 0px;
+      padding: 8px 25px;
+    }
+  
+  
+    input.search-field:focus {
+      margin-right: 0px;
+      width: 100vw;
+      padding: 8px 8px 8px 50px;
+    }
+  
+    input.search-field:focus ~ .search-popup {
+      width: 100vw;
+    }
+  
+    .search-content {
+      width: 100%;
+      padding: 8px 8px;
+    }
+  }
+  
